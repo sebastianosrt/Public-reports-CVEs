@@ -1,0 +1,10 @@
+- [FIX](https://github.com/trentm/python-markdown2/issues/603) - XSS in python-markdown2
+- [CVE-2024-48962](https://www.sebsrt.xyz/blog/CVE-2024-48962-ofbiz-ssti/) - Unauthenticated RCE in Apache Ofbiz (simple redirection -> SSTI to RCE with Freemarker sandbox bypass)
+- [CVE-2025-53628](https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-j6p8-779x-p5pw) - HTTP Header Smuggling due to insecure trailers merge in cpp-httplib
+- [PR](https://github.com/valyala/fasthttp/pull/2043) - HTTP header smuggling in fasthttp
+- [CVE-2025-57804](https://github.com/python-hyper/h2/security/advisories/GHSA-847f-9342-265h) - HTTP/2 Request splitting in python h2
+- [CVE-2025-58068](https://github.com/eventlet/eventlet/security/advisories/GHSA-hw6f-rjfj-j7j7) - HTTP Request smuggling in Eventlet due to not parsing http trailers
+- [FIX](https://github.com/lighttpd/lighttpd1.4/commit/35cb89c103877de62d6b63d0804255475d77e5e1) - HTTP Header smuggling in lighttpd
+- [FIX](https://github.com/socketry/protocol-http2/commit/4beb746eac55ad8eb6c6ee8f6aa7733812cc8ade) - DoS via HTTP2 CONTINUATION Flood in async-http
+- [FIX](https://github.com/socketry/protocol-http/commit/a4751bf47c45a9f27a03700ce5571637218384c9) - HTTP2 Header Smuggling in falcon
+- [CVE-2025-59822](https://github.com/http4s/http4s/security/advisories/GHSA-wcwh-7gfw-5wrr) -  HTTP Request Smuggling due to improper handling of HTTP trailer section in http4s
