@@ -7,4 +7,4 @@
 - [CVE-2025-58068](https://github.com/eventlet/eventlet/security/advisories/GHSA-hw6f-rjfj-j7j7) - HTTP Request smuggling in Eventlet due to not parsing http trailers
 - [FIX](https://github.com/lighttpd/lighttpd1.4/commit/35cb89c103877de62d6b63d0804255475d77e5e1) - HTTP Header smuggling in lighttpd
 - [FIX](https://github.com/socketry/protocol-http2/commit/4beb746eac55ad8eb6c6ee8f6aa7733812cc8ade) - DoS via HTTP2 CONTINUATION Flood in async-http
-- [CVE-2025-59822](https://github.com/http4s/http4s/security/advisories/GHSA-wcwh-7gfw-5wrr) -  HTTP Request Smuggling due to improper handling of HTTP trailer section in http4s
+- [CVE-2025-59822](https://github.com/http4s/http4s/security/advisories/GHSA-wcwh-7gfw-5wrr) -  HTTP Request Smuggling due to improper handling of trailer section in http4s
