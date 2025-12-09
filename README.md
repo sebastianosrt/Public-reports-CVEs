@@ -8,3 +8,4 @@
 - [CVE-2025-12642](https://www.cve.org/cverecord?id=CVE-2025-12642) - HTTP Header smuggling in lighttpd
 - [FIX](https://github.com/socketry/protocol-http2/commit/4beb746eac55ad8eb6c6ee8f6aa7733812cc8ade) - DoS via HTTP2 CONTINUATION Flood in async-http
 - [CVE-2025-59822](https://github.com/http4s/http4s/security/advisories/GHSA-wcwh-7gfw-5wrr) -  HTTP Request Smuggling due to improper handling of trailer section in http4s
+- [CVE-2025-67488](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-4r66-7rcv-x46x) - RCE via ZIP slip in siyuan
