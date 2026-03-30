@@ -13,3 +13,5 @@
 | [CVE-2025-67488](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-4r66-7rcv-x46x) | RCE via ZIP Slip | siyuan | High | 8.6 |
 | [CVE-2026-27804](https://github.com/parse-community/parse-server/security/advisories/GHSA-4q3h-vp4r-prv2) | Account Takeover via JWT algorithm confusion in Google auth adapter | parse-server | Critical | 9.1 |
 | [CVE-2026-27971](https://github.com/QwikDev/qwik/security/advisories/GHSA-p9x5-jp3h-96mm) | Unauthenticated RCE via server$ Deserialization | qwik | Critical | 9.2 |
+| - |  vendor or reporter disallowed the disclosure | Critical | 10.0 |
+| [CVE-2026-34752](https://github.com/haraka/Haraka/security/advisories/GHSA-xph3-r2jf-4vp3) | DoS via `__proto__` email header | Haraka | High | 8.7 |
