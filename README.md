@@ -2,16 +2,18 @@
 |-----------|---------------|---------|----------|------|
 | [FIX](https://github.com/trentm/python-markdown2/issues/603) | XSS | python-markdown2 | - | - |
 | [CVE-2024-48962](https://www.sebsrt.xyz/blog/CVE-2024-48962-ofbiz-ssti/) | Unauthenticated RCE via SSTI (Freemarker sandbox bypass) | Apache OFBiz | High | 8.8 |
-| [CVE-2025-53628](https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-j6p8-779x-p5pw) | HTTP Header Smuggling via insecure trailers merge | cpp-httplib | Moderate | 6.3 |
+| [CVE-2025-53628](https://github.com/yhirose/cpp-httplib/security/advisories/GHSA-j6p8-779x-p5pw) | HTTP Header Smuggling via insecure trailers merge | cpp-httplib | Medium | 6.3 |
 | [PR](https://github.com/valyala/fasthttp/pull/2043) | HTTP Header Smuggling | fasthttp | - | - |
 | [CVE-2025-55702](https://www.cve.org/CVERecord?id=CVE-2025-55702) | HTTP Request Smuggling | Apache Traffic Server | - | - |
-| [CVE-2025-57804](https://github.com/python-hyper/h2/security/advisories/GHSA-847f-9342-265h) | HTTP/2 Request Splitting | python h2 | Moderate | 6.9 |
-| [CVE-2025-58068](https://github.com/eventlet/eventlet/security/advisories/GHSA-hw6f-rjfj-j7j7) | HTTP Request Smuggling via improper handling of trailer section | eventlet | Moderate | 6.3 |
+| [CVE-2025-57804](https://github.com/python-hyper/h2/security/advisories/GHSA-847f-9342-265h) | HTTP/2 Request Splitting | python h2 | Medium | 6.9 |
+| [CVE-2025-58068](https://github.com/eventlet/eventlet/security/advisories/GHSA-hw6f-rjfj-j7j7) | HTTP Request Smuggling via improper handling of trailer section | eventlet | Medium | 6.3 |
 | [CVE-2025-12642](https://www.cve.org/cverecord?id=CVE-2025-12642) | HTTP Header Smuggling | lighttpd | Medium | 6.9 |
-| [FIX](https://github.com/socketry/protocol-http2/commit/4beb746eac55ad8eb6c6ee8f6aa7733812cc8ade) | DoS via HTTP/2 CONTINUATION Flood | async-http | - | - |
-| [CVE-2025-59822](https://github.com/http4s/http4s/security/advisories/GHSA-wcwh-7gfw-5wrr) | HTTP Request Smuggling via improper handling of trailer section | http4s | Moderate | 6.3 |
+| [FIX](https://github.com/socketry/protocol-http2/commit/4beb746eac55ad8eb6c6ee8f6aa7733812cc8ade) | DoS via HTTP/2 CONTINUATION Flood | async-http | High | 8.7 |
+| [CVE-2025-59822](https://github.com/http4s/http4s/security/advisories/GHSA-wcwh-7gfw-5wrr) | HTTP Request Smuggling via improper handling of trailer section | http4s | Medium | 6.3 |
 | [CVE-2025-67488](https://github.com/siyuan-note/siyuan/security/advisories/GHSA-4r66-7rcv-x46x) | RCE via ZIP Slip | siyuan | High | 8.6 |
 | [CVE-2026-27804](https://github.com/parse-community/parse-server/security/advisories/GHSA-4q3h-vp4r-prv2) | Account Takeover via JWT algorithm confusion in Google auth adapter | parse-server | Critical | 9.1 |
 | [CVE-2026-27971](https://github.com/QwikDev/qwik/security/advisories/GHSA-p9x5-jp3h-96mm) | Unauthenticated RCE via server$ Deserialization | qwik | Critical | 9.2 |
-| - |  vendor or reporter disallowed the disclosure | Critical | 10.0 |
 | [CVE-2026-34752](https://github.com/haraka/Haraka/security/advisories/GHSA-xph3-r2jf-4vp3) | DoS via `__proto__` email header | Haraka | High | 8.7 |
+| [GHSA-8c6g-xf48-2fvx](https://github.com/boostorg/beast/security/advisories/GHSA-8c6g-xf48-2fvx) | HTTP Header Smuggling | beast | Medium | 6.3 |
+| [CVE-2026-63379](https://github.com/libevent/libevent/security/advisories/GHSA-2gmv-p5m7-98p6) | HTTP Header Smuggling | libevent | Medium | 6.3 |
+| [CVE-2026-12606](https://www.cve.org/cverecord?id=CVE-2026-12606) | HTTP Request Smuggling | glassfish grizzly | Medium | 6.3 |
